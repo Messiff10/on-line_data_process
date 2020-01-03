@@ -42,7 +42,7 @@ def addspace():
 
                 # line.replace()
                 # words=re.find(regex,line)
-                allwords = regex3.split(line)
+                allwords = [ch for ch in line.strip()]
                 for allw in allwords:
                     if allw.strip() in emojiset:
                         line = ""
