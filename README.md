@@ -68,4 +68,7 @@ wordcount词频文件与词表对照结果
 参数2:生成训练数据的文件夹名称  
 参数3:一元词表路径  
 参数4:测评语料文件夹名称，包含五个文件（语言_data.txt 语言_facebook.txt 语言_im.txt 语言-facebook.txt 语言-twitter.txt 语言-web.txt） 
-
+### getSensitiveSentences.py
+生成测评语料时去除敏感数据
+### runWord.py
+最终生成测评数据，修改场景所占比例以及过筛率
