@@ -61,5 +61,11 @@ wordcount词频文件与词表对照结果
 删除单词和标点符号间的空格
 ##### 参数：
 参数1:原始语料路径（后缀.txt 生成.despace）
-
+### true_rate.py
+训练语料中的验证集和测评语料相对于大词表中的命中率
+##### 参数：
+参数1:locale  
+参数2:生成训练数据的文件夹名称  
+参数3:一元词表路径  
+参数4:测评语料文件夹名称，包含五个文件（语言_data.txt 语言_facebook.txt 语言_im.txt 语言-facebook.txt 语言-twitter.txt 语言-web.txt） 
 
