@@ -5,10 +5,10 @@ import sys
 
 
 
-def is_emoji(content):
-    if re.match(emoji.get_emoji_regexp(), content):
-        return True
-    return False
+# def is_emoji(content):
+#     if re.match(emoji.get_emoji_regexp(), content):
+#         return True
+#     return False
 
 
 regex = re.compile(
@@ -64,7 +64,7 @@ def addspace():
                             line = line.replace(w + ' ', w)
                             # line = line.replace('  ', '')
                             # 加空格
-                            line.replace(emojiset, ' ' + emojiset + ' ', line)
+                            # line.replace(emojiset, ' ' + emojiset + ' ', line)
                             line = line.replace(w, ' ' + w + ' ')  # 加空格
                             line = re.sub(r"(\w+) ?\' (\w+)?", r"\1'\2", line)
                             # line = line.replace('\'', '\'')

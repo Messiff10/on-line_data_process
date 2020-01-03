@@ -3,12 +3,10 @@ import sys
 
 ## 统计词频和单词
 ## 匹配键码生成训练数据
+import emoji
 
 
-def is_emoji(content):
-    if re.match(emoji.get_emoji_regexp(), content):
-        return True
-    return False
+
 
 ##
 ## 参数列表

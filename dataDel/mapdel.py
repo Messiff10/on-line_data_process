@@ -1,5 +1,6 @@
 import codecs
 import sys
+from builtins import int, sorted, tuple, str, set
 
 file_path = sys.argv[1]
 maps_sort_path = file_path.replace('.txt', '_sort')

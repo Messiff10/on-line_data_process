@@ -3,7 +3,7 @@ import os
 import re
 import sys
 
-from dataDel.reExpression import replace_quotes_1, replace_brackets_1, replace_brackets_2 \
+from utils.reExpression import replace_quotes_1, replace_brackets_1, replace_brackets_2 \
     , replace_brackets_3, replace_brackets_4, replace_brackets_5, replace_brackets_6, replace_brackets_7 \
     , replace_brackets_8, replace_brackets_9, replace_clock_time, replace_brackets_1, replace_quotes_2, \
     replace_quotes_3, replace_brackets_10, replace_brackets_11, replace_quotes_4, replace_line_time

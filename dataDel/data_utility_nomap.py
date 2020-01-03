@@ -69,7 +69,7 @@ if __name__ == "__main__":
     # file_path = sys.argv[1]
     # map = sys.argv[2]
     # map = "/Users/ff/Desktop/测评数据/nomap_process/map_sort_null.txt"
-    names = []
+    # names = []
     emoji_path = sys.argv[2]
     print(file_path)
     getemoji(emoji_path)
